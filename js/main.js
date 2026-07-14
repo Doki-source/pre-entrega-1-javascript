@@ -1,6 +1,6 @@
 const nombre = prompt("Ingrese su nombre:");
-const anioNacimiento = Number(prompt("Ingrese su año de nacimiento:"));
-const anioActual = Number(prompt("Ingrese el año actual:"));
+const anioNacimiento = parseInt(prompt("Ingrese su año de nacimiento:"));
+const anioActual = parseInt(prompt("Ingrese el año actual:"));
 
 const edadAproximada = anioActual - anioNacimiento;
 
